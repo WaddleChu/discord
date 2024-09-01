@@ -10,16 +10,7 @@
  * @authorId 174868361040232448
  * @BDEditor Frosted Glass
 */
-/*chillax*/
-@import url('https://warrayquipsome.github.io/Chillax/chillax.css');
 
-/*removable addons*/
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");
-@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');
-@import url('https://nyri4.github.io/Discolored/main.css');
-@import url("https://warrayquipsome.github.io/Chillax/Addons/IconPackEdited.css");
-@import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");
-@import url("https://warrayquipsome.github.io/Chillax/Addons/FolderRedesign.css");
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower:wght@100;300;400;500;700&display=swap');
 @import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
 @import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
@@ -56,55 +47,18 @@
   --window-padding: 0px;
   --window-roundness: 0px;
   --update-notice-1: none;
-  --rs-small-spacing: 0px;
-  --rs-large-spacing: 0px;
-  --rs-medium-spacing: 0px;
-  --rs-small-width: 2.5px;
-  --rs-medium-width: 3.5px;
-  --rs-large-width: 4.5px;
-  --rs-avatar-shape: 50%;
-  --rs-online-color: #1df594;
-  --rs-idle-color: #faa61a;
-  --rs-dnd-color: #f04747;
-  --rs-offline-color: #636b75;
-  --rs-streaming-color: #643da7;
-  --rs-invisible-color: #636b75;
-  --rs-phone-visible: block;
-  --rs-phone-color: var(--rs-online-color);
 }
 
 /* Any custom CSS below here */
 
+/* member list and friend DMs hover effect */
+.clickable_d808b0:hover,
+.interactive_f5eb4b:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
 }
 
-/*discord transparency*//*roots*/ /*theme dark*/
-.theme-dark {
-    --background-message-hover: rgba(255, 255, 255, 0.055);
-    --header-primary: #fff;
-    --header-secondary: #b9bbbe;
-    --text-normal: #dcddde;
-    --text-muted: #9d9d9d;
-    --channels-default: #8e9297;
-    --interactive-normal: #b9bbbe;
-    --interactive-hover: #dcddde;
-    --interactive-active: #fff;
-    --interactive-muted: #4f545c;
-    --background-primary: transparent;
-    --background-secondary: transparent;
-    --background-tertiary: transparent;
-    --background-accent: rgb(36, 36, 36);
-    --activity-card-background: transparent;
-    --deprecated-panel-background: transparent;
-}
-
-}
-
-
-/*window*/ /*dark mode*/
-:root.theme-dark {
-    --window-margin: 20px; /*must be above 20px*/
-    --window-colour: #0009;
-    --window-blur: 5px;
-    --window-border-radius: 10px;
-    --sidebar-colour: rgb(36, 36, 36);
+.clickable_d808b0,
+.interactive_f5eb4b {
+    transition: all 0.3s;
 }
